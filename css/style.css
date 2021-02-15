@@ -1,0 +1,57 @@
+.header{
+    background-color: #00e6b8;
+    color: aliceblue;
+}
+.footer{
+    bottom: 0;
+    height: 4%;
+    width: 100%;
+    background-color: #00e6b8;
+    color: aliceblue;
+    position:fixed;
+}
+
+.vertical-line{
+    display: inline-block;
+    border-right: 0.5vh solid #00e6b8;
+    margin: 0 10px;
+    
+}
+
+
+table{
+	text-align: left;
+	background:white;
+	color: #fff;
+    border: green;
+    
+}
+tbody tr:nth-child(even){
+    background-color: #efefc3;
+}
+#show th, #show td{
+	padding: 5px;
+}
+
+#btna td input{
+	width: 100%;
+}
+
+#sub{
+    width: 100%;
+}
+
+tr { 
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1; 
+    animation-fill-mode:forwards; 
+} 
+  
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+}
